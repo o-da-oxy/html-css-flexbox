@@ -1,0 +1,33 @@
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+li{
+    align-items: center;
+}
+div{
+    border: 10px solid black;
+    box-shadow: rgb(180, 180, 180) 0px 0px 8px 3px inset,
+    rgb(180, 180, 180) 0px 0px 20px 4px;
+    width: 250px;
+    height: 380px;
+    padding: 15px;
+    align-items: center;
+    margin: 25px 25px 25px 25px;
+    background-color: white;
+    justify-content: center;
+}
+img{
+    max-width: 250px;
+    max-height: 360px;
+}
+body{
+    border: 1px solid blue;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+    margin: 120px;
+}
+ul, li, body, div, img{
+    display: flex;
+}
